@@ -13,7 +13,7 @@
 .card__img{
     min-width: 100%;
     min-height: 100%;
-    transition: trasform .1s;
+    transition: trasform .9s;
 }
 
 .card__img:hover{

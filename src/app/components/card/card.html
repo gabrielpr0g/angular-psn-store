@@ -1,7 +1,15 @@
-<a href=""  class="card__container">
-    <img 
+<a href="#" class="card__container">
+  <img 
     class="card__img"
-    src="https://github.com/felipeAguiarCode/angular-psn-store-clone/blob/main/src/assets/bt-5.jpg?raw=true" 
-    alt="" 
+    [src]=[gameCover]
+    alt="Descrição" 
     srcset="">
+  <app-card-label 
+    gameLabel="{{gameLabel}}"
+    >
+  </app-card-label>
+  <app-card-pricing
+    gameType="{{gameType}}"
+    gamePrice="{{gamePrice}}">
+  </app-card-pricing>
 </a>
